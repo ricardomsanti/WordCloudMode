@@ -1,0 +1,27 @@
+NAME,DEFAULT_VALUE,TARGET,TYPE,VALUE_MODE
+ margin,2,IMAGE,int,static
+ mask,None,IMAGE,nd-array,dynamic
+ background_color,black,IMAGE,color value,dynamic
+ mode,RGB,IMAGE,string,dynamic
+ contour_color,black,IMAGE,color value,dynamic
+ prefer_horizontal,0.9,WORDS,float,dynamic
+ scale,1,WORDS,float,dynamic
+ max_words,200,WORDS,int,dynamic
+ font_step,1,WORDS,int,dynamic
+ relative_scaling,auto,WORDS,float,dynamic
+ repeat,False,WORDS,bool,dynamic
+ width,400,IMAGE,int,static
+ height,200,IMAGE,int,static
+ contour_width,0,IMAGE,int,static
+font_path ,None,WORDS,string,static
+ color_func,None,WORDS,func,static
+ min_font_size,4,WORDS,int,static
+ stopwords,None,WORDS,set of strings,static
+ max_font_size,None,WORDS,int,static
+ regexp,None,WORDS,string,static
+ collocations,True,WORDS,bool,static
+ colormap,None,WORDS,string,static
+ normalize_plurals,True,WORDS,bool,static
+ include_numbers,False,WORDS,bool,static
+ min_word_length,0,WORDS,int,static
+ collocation_threshold,30,WORDS,int,static
